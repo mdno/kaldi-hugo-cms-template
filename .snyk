@@ -1,0 +1,100 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - browser-sync > resp-modifier > debug:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: 'npm:debug:20170905'
+        path: browser-sync > resp-modifier > debug
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping >
+          babel-template > babel-traverse > debug
+  'npm:extend:20180424':
+    - uncss > phridge > phantomjs-prebuilt > request > extend:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: 'npm:extend:20180424'
+        path: uncss > phridge > phantomjs-prebuilt > request > extend
+  'npm:hoek:20180212':
+    - uncss > phridge > phantomjs-prebuilt > request > hawk > hoek:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: 'npm:hoek:20180212'
+        path: uncss > phridge > phantomjs-prebuilt > request > hawk > hoek
+    - uncss > phridge > phantomjs-prebuilt > request > hawk > boom > hoek:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: 'npm:hoek:20180212'
+        path: uncss > phridge > phantomjs-prebuilt > request > hawk > boom > hoek
+    - uncss > phridge > phantomjs-prebuilt > request > hawk > sntp > hoek:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: 'npm:hoek:20180212'
+        path: uncss > phridge > phantomjs-prebuilt > request > hawk > sntp > hoek
+  SNYK-JS-LODASH-567746:
+    - babel-register > lodash:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-register > lodash
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping >
+          lodash
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping >
+          babel-template > lodash
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-es2015 > babel-plugin-transform-es2015-classes >
+          babel-helper-define-map > lodash
+    - babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex >
+          babel-helper-regex > lodash
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping >
+          babel-template > babel-traverse > lodash
+  'npm:ms:20170412':
+    - browser-sync > resp-modifier > debug > ms:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: 'npm:ms:20170412'
+        path: browser-sync > resp-modifier > debug > ms
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug > ms:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping >
+          babel-template > babel-traverse > debug > ms
+  'npm:qs:20170213':
+    - uncss > phridge > phantomjs-prebuilt > request > qs:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: 'npm:qs:20170213'
+        path: uncss > phridge > phantomjs-prebuilt > request > qs
+  'npm:stringstream:20180511':
+    - uncss > phridge > phantomjs-prebuilt > request > stringstream:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: 'npm:stringstream:20180511'
+        path: uncss > phridge > phantomjs-prebuilt > request > stringstream
+  'npm:tough-cookie:20170905':
+    - uncss > phridge > phantomjs-prebuilt > request > tough-cookie:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: 'npm:tough-cookie:20170905'
+        path: uncss > phridge > phantomjs-prebuilt > request > tough-cookie
+  'npm:tunnel-agent:20170305':
+    - uncss > phridge > phantomjs-prebuilt > request > tunnel-agent:
+        patched: '2024-09-16T04:19:46.145Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: uncss > phridge > phantomjs-prebuilt > request > tunnel-agent
